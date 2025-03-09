@@ -1,0 +1,467 @@
+{
+    "Breakfast": [
+        {
+            "title": "Classic Pancakes",
+            "cooking_time": "20 minutes",
+            "ingredients": [
+                "1 cup flour",
+                "1 egg",
+                "1 cup milk",
+                "1 tbsp sugar",
+                "1 tsp baking powder",
+                "Butter for cooking"
+            ],
+            "instructions": "1. In a bowl, whisk together flour, sugar, and baking powder.\n 2. In another bowl, beat the egg and mix it with milk.\n 3. Gradually add the wet ingredients to the dry ingredients, stirring until smooth.\n 4. Heat a pan and lightly grease it with butter.\n 5. Pour a small amount of batter onto the pan and cook until bubbles form on the surface.\n 6. Flip and cook the other side until golden brown.\n 7. Repeat with the remaining batter and serve warm with syrup or toppings of choice.",
+            "image": "recipe_images/pancakes.jpeg"
+        },
+        {
+            "title": "Omelette",
+            "cooking_time": "5 minutes",
+            "ingredients": [
+                "2 eggs",
+                "Salt and pepper to taste",
+                "Butter for cooking"
+            ],
+            "instructions": "1. Crack the eggs into a bowl and beat them well.\n 2. Add salt and pepper to taste, then mix thoroughly.\n 3. Heat a pan over medium heat and add butter.\n 4. Pour the beaten eggs into the pan and let them cook for a minute.\n 5. Gently stir the edges with a spatula to allow uncooked egg to spread.\n 6. Once the omelette is set, carefully fold it in half.\n 7. Cook for another 30 seconds, then transfer to a plate and serve hot.",
+            "image": "recipe_images/omelette.jpeg"
+        },
+        {
+            "title": "Aloo Paratha",
+            "cooking_time": "30 minutes",
+            "ingredients": [
+                "2 cups whole wheat flour",
+                "1 potato (boiled and mashed)",
+                "Salt and spices (as per taste)",
+                "Butter for cooking"
+            ],
+            "instructions": "1. Knead the whole wheat flour with water to make a soft dough and let it rest for 15 minutes.\n 2. Mix the mashed potato with salt and spices to prepare the filling.\n 3. Take a small portion of dough, roll it into a small disc, and place the potato filling in the center.\n 4. Seal the edges, flatten it gently, and roll it into a round paratha.\n 5. Heat a tawa (griddle) and place the paratha on it.\n 6. Cook one side until light golden brown, then flip and apply butter.\n 7. Cook both sides until crispy and golden brown, then serve hot with yogurt or chutney.",
+            "image": "recipe_images/aloo_paratha.jpeg"
+        },
+        {
+            "title": "Halwa Puri",
+            "cooking_time": "45 minutes",
+            "ingredients": [
+                "1 cup flour",
+                "Salt to taste",
+                "Water",
+                "Oil for frying",
+                "1/2 cup semolina (sooji)",
+                "1/2 cup sugar",
+                "2 tbsp ghee",
+                "1 cup water",
+                "1/4 tsp cardamom powder",
+                "Dry fruits for garnish (optional)",
+                "2 cups chickpeas (soaked overnight)",
+                "1 onion (chopped)",
+                "2 tomatoes (chopped)",
+                "1 tbsp ginger garlic paste",
+                "1 tsp cumin seeds",
+                "1 tsp red chili powder",
+                "1/2 tsp turmeric",
+                "1 tsp garam masala",
+                "Salt (to taste)",
+                "Fresh coriander (for garnish)"
+            ],
+            "instructions": "1. Knead flour with water and salt to make a soft dough.\n2. Divide the dough into small portions and roll into thin circles.\n3. Heat oil in a deep pan and fry each puri until golden brown.\n4. Remove and drain excess oil on a paper towel.\n\nFor Halwa:\n1. Heat ghee in a pan and roast semolina until golden brown.\n2. Add sugar, water, and cardamom powder, stirring continuously.\n3. Cook on low heat until the mixture thickens and leaves the sides of the pan.\n4. Remove from heat and serve warm.\n\nFor Chole:\n1. Heat oil in a pan and saut\u00c3\u00a9 cumin seeds and chopped onions until golden brown.\n2. Add chopped tomatoes, ginger garlic paste, red chili powder, turmeric, and salt.\n3. Cook until the tomatoes soften, then add the boiled chickpeas.\n4. Mix well, add garam masala, and simmer for 10 minutes.\n5. Garnish with fresh coriander and serve hot.",
+            "image": "recipe_images/halwa_puri.jpeg"
+        },
+        {
+            "title": "Chole Kulche",
+            "cooking_time": "40 minutes",
+            "ingredients": [
+                "2 cups chickpeas (soaked overnight)",
+                "1 onion (chopped)",
+                "2 tomatoes (chopped)",
+                "1 tbsp ginger garlic paste",
+                "1 tsp cumin seeds",
+                "1 tsp red chili powder",
+                "1/2 tsp turmeric",
+                "1 tsp garam masala",
+                "Salt (to taste)",
+                "Fresh coriander (for garnish)",
+                "Kulche (store-bought or homemade)"
+            ],
+            "instructions": "1. Boil the soaked chickpeas until tender and drain excess water.\n 2. Heat oil in a pan, add cumin seeds, and saut\u00c3\u00a9 onions until golden brown.\n 3. Add ginger garlic paste and cook until the raw smell disappears.\n 4. Mix in chopped tomatoes, red chili powder, turmeric, and salt, then cook until tomatoes soften.\n 5. Add the boiled chickpeas and garam masala, mix well, and let simmer for 10 minutes.\n 6. Garnish with fresh coriander and serve hot.\n\n For Kulche:\n 1. Take store-bought kulche or prepare them at home by kneading a soft dough using all-purpose flour, yogurt, baking powder, and salt.\n 2. Let the dough rest for at least an hour, then divide it into small portions.\n 3. Roll out each portion into a flat, oval shape and sprinkle some sesame seeds or coriander leaves on top.\n 4. Cook on a hot tawa (griddle) until golden brown on both sides, or bake in an oven at 200\u00c2\u00b0C for 5-7 minutes.\n 5. Serve warm with Chole.",
+            "image": "recipe_images/chole_kulche.jpeg"
+        }
+    ],
+    "Lunch": [
+        {
+            "title": "Daal Chawal",
+            "cooking_time": "45 minutes",
+            "ingredients": [
+                "1 cup lentils (masoor or moong)",
+                "3 cups water",
+                "1 onion (sliced)",
+                "2 tomatoes (chopped)",
+                "1 tsp turmeric powder",
+                "1 tsp red chili powder",
+                "Salt to taste",
+                "2 tbsp oil or ghee",
+                "Fresh coriander (chopped)",
+                "2 cups rice (soaked for 30 minutes)"
+            ],
+            "instructions": "1. **Cook the Daal:** Wash the lentils thoroughly. In a pot, add lentils, water, turmeric, red chili powder, and salt. Boil until the lentils are soft and the mixture is slightly thickened.\n2. **Prepare the Tarka:** Heat oil or ghee in a pan. Add sliced onions and fry until golden brown. Pour the tarka over the cooked daal and stir. Garnish with fresh coriander.\n3. **Cook the Rice:** In a separate pot, boil water and add soaked rice. Cook until the rice is tender. Drain any excess water.\n4. **Serve Hot:** Plate the rice with a generous serving of daal on top. Serve with pickles, papad, or raita.",
+            "image": "recipe_images/daal_chawal.jpeg",
+            "reviews": [
+                2,
+                2
+            ]
+        },
+        {
+            "title": "Biryani",
+            "cooking_time": "1 hour",
+            "ingredients": [
+                "2 cups rice",
+                "500g chicken or mutton",
+                "2 onions (sliced)",
+                "2 tomatoes (chopped)",
+                "1/2 cup yogurt",
+                "2 tbsp biryani masala",
+                "1 tsp turmeric powder",
+                "1 tsp red chili powder",
+                "Salt to taste",
+                "1 tbsp ginger garlic paste",
+                "2 tbsp oil or ghee",
+                "Fresh coriander and mint (chopped)",
+                "1/2 tsp saffron (soaked in warm milk)",
+                "4 cups water for boiling rice"
+            ],
+            "instructions": "1. Wash and soak the rice for 30 minutes.\n2. Heat oil or ghee in a pot and saut\u00c3\u00a9 sliced onions until golden brown.\n3. Add ginger garlic paste and cook until fragrant.\n4. Add chopped tomatoes, yogurt, biryani masala, turmeric, red chili powder, and salt. Cook until the oil separates.\n5. Add chicken or mutton and cook until tender.\n6. In a separate pot, bring 4 cups of water to a boil and add soaked rice.\n7. Cook the rice until 80% done, then drain the excess water.\n8. Layer the cooked meat mixture and rice in a pot, sprinkling saffron milk, fresh coriander, and mint between layers.\n9. Cover and cook on low heat (dum) for 15-20 minutes.\n10. Fluff the biryani gently and serve hot with raita and salad.",
+            "image": "recipe_images/biryani.jpeg"
+        },
+        {
+            "title": "Karahi",
+            "cooking_time": "40 minutes",
+            "ingredients": [
+                "500g chicken or mutton",
+                "Onions",
+                "Tomatoes",
+                "Green chilies",
+                "Ginger and garlic paste",
+                "Coriander and cumin powder"
+            ],
+            "instructions": "1. Heat oil in a wok (karahi) and fry chopped onions until golden brown.\n 2. Add ginger-garlic paste and saut\u00c3\u00a9 for a minute until fragrant.\n 3. Add chopped tomatoes and cook until they turn soft and the oil separates.\n 4. Add chicken or mutton along with coriander and cumin powder, then cook on medium heat until the meat is well coated with spices.\n 5. Cover and cook on low heat until the meat becomes tender, stirring occasionally.\n 6. Add sliced green chilies and cook for another 5 minutes for extra flavor.\n 7. Garnish with fresh coriander and serve hot with naan or roti.",
+            "image": "recipe_images/karahi.jpeg"
+        },
+        {
+            "title": "Aloo Gosht",
+            "cooking_time": "1 hour",
+            "ingredients": [
+                "500g mutton",
+                "2 potatoes (peeled and cubed)",
+                "Onions",
+                "Tomatoes",
+                "Spices (cumin, coriander, garam masala)"
+            ],
+            "instructions": "1. Heat oil in a pot and fry chopped onions until golden brown.\n 2. Add ginger-garlic paste and saut\u00c3\u00a9 for a minute until fragrant.\n 3. Add chopped tomatoes, cumin, coriander, and garam masala, then cook until the oil separates.\n 4. Add mutton and cook on medium heat until browned and well-coated with spices.\n 5. Add water, cover, and let it simmer on low heat until the meat is tender.\n 6. Add cubed potatoes and cook until soft and fully infused with the gravy.\n 7. Adjust seasoning, garnish with fresh coriander, and serve hot with roti or rice.",
+            "image": "recipe_images/aloo_gosht.jpeg"
+        },
+        {
+            "title": "Bhindi Fry",
+            "cooking_time": "30 minutes",
+            "ingredients": [
+                "500g okra (bhindi), washed and sliced",
+                "2 onions (sliced)",
+                "2 tomatoes (chopped)",
+                "1 tsp turmeric powder",
+                "1 tsp red chili powder",
+                "Salt to taste",
+                "2 tbsp oil",
+                "Fresh coriander for garnish"
+            ],
+            "instructions": "1. Heat oil in a pan and saut\u00c3\u00a9 sliced onions until they turn golden brown.\n 2. Add chopped tomatoes, turmeric powder, red chili powder, and salt, then cook until the tomatoes soften.\n 3. Add the sliced okra (bhindi) and stir well to coat with the spices.\n 4. Cook on medium heat, stirring occasionally, until the bhindi becomes soft and no longer sticky.\n 5. Adjust seasoning as needed and garnish with fresh coriander before serving.",
+            "image": "recipe_images/bhindi_fry.jpeg"
+        }
+    ],
+    "Snacks": [
+        {
+            "title": "Cheese Sandwich",
+            "cooking_time": "10 minutes",
+            "ingredients": [
+                "2 slices bread",
+                "Cheese",
+                "Butter"
+            ],
+            "instructions": "1. Spread butter on one side of each bread slice.\n 2. Place a slice of cheese between the unbuttered sides of the bread.\n 3. Heat a pan on medium heat and place the sandwich buttered side down.\n 4. Cook for 2-3 minutes until golden brown, then flip and cook the other side.\n 5. Remove from heat once both sides are crispy and the cheese is melted.\n 6. Serve hot and enjoy.",
+            "image": "recipe_images/cheese_sandwich.jpeg",
+            "reviews": {
+                "hurmat": [
+                    3
+                ],
+                "Ali": [
+                    4
+                ]
+            }
+        },
+        {
+            "title": "Samosa",
+            "cooking_time": "30 minutes",
+            "ingredients": [
+                "1 cup flour",
+                "Potato filling",
+                "Spices",
+                "Oil for frying"
+            ],
+            "instructions": "1. In a bowl, mix flour with water and a pinch of salt to form a smooth dough.\n 2. Knead well and let it rest for 20 minutes.\n 3. Prepare the filling by boiling potatoes and mashing them with spices.\n 4. Divide the dough into small balls and roll each into a thin circle.\n 5. Cut the circle in half and form a cone shape, sealing the edges with water.\n 6. Fill the cone with the potato mixture and seal the open edge tightly.\n 7. Heat oil in a deep pan and fry the samosas on medium heat until golden brown.\n 8. Remove from oil, drain excess oil on paper towels, and serve hot with chutney.",
+            "image": "recipe_images/samosa.jpeg"
+        },
+        {
+            "title": "Pakora",
+            "cooking_time": "20 minutes",
+            "ingredients": [
+                "Chickpea flour",
+                "Potatoes",
+                "Spinach",
+                "Spices",
+                "Oil for frying"
+            ],
+            "instructions": "1. In a bowl, mix chickpea flour with water, salt, red chili powder, turmeric, and other spices to form a thick batter.\n 2. Slice the potatoes and chop the spinach into small pieces.\n 3. Heat oil in a deep pan over medium heat.\n 4. Dip the potato slices and spinach into the batter, ensuring they are well coated.\n 5. Carefully drop the coated ingredients into the hot oil and fry until golden brown and crispy.\n 6. Remove from oil and place on a paper towel to absorb excess oil.\n 7. Serve hot with chutney or ketchup.",
+            "image": "recipe_images/pakoras.jpeg"
+        },
+        {
+            "title": "Chana Chaat",
+            "cooking_time": "10 minutes",
+            "ingredients": [
+                "Boiled chickpeas",
+                "Onion",
+                "Cucumber",
+                "Lemon",
+                "Spices"
+            ],
+            "instructions": "1. In a bowl, add boiled chickpeas and finely chopped onions, cucumbers, and tomatoes.\n 2. Squeeze fresh lemon juice over the mixture.\n 3. Add salt, chaat masala, cumin powder, and red chili powder to taste.\n 4. Mix everything well until all ingredients are combined.\n 5. Garnish with fresh coriander and green chilies for extra flavor.\n 6. Serve chilled with tamarind or mint chutney.",
+            "image": "recipe_images/chana_chaat.jpeg"
+        },
+        {
+            "title": "Kachori",
+            "cooking_time": "25 minutes",
+            "ingredients": [
+                "Flour",
+                "Spicy filling",
+                "Oil for frying"
+            ],
+            "instructions": "1. In a mixing bowl, knead the flour with water, salt, and a little oil to form a smooth dough.\n 2. Cover the dough and let it rest for 15-20 minutes.\n 3. Prepare the spicy filling by mixing mashed lentils or potatoes with spices like cumin, coriander, and chili powder.\n 4. Divide the dough into small balls and flatten each one.\n 5. Place a spoonful of filling in the center and seal the edges properly.\n 6. Roll each stuffed ball lightly to form a disc shape.\n 7. Heat oil in a deep pan and fry the kachoris on medium heat until golden brown and crispy.\n 8. Drain excess oil on a paper towel and serve hot with chutney or yogurt.",
+            "image": "recipe_images/kachori.jpeg"
+        }
+    ],
+    "Dinner": [
+        {
+            "title": "Pulao",
+            "cooking_time": "45 minutes",
+            "ingredients": [
+                "2 cups rice",
+                "500g chicken or mutton",
+                "2 onions (sliced)",
+                "2 tomatoes (chopped)",
+                "1 tbsp ginger garlic paste",
+                "2 tsp cumin seeds",
+                "1 cinnamon stick",
+                "4 cloves",
+                "1 bay leaf",
+                "Salt (to taste)",
+                "Water (as required)",
+                "Fresh coriander and fried onions (for garnish)"
+            ],
+            "instructions": "1. Rinse the rice thoroughly and soak it in water for 30 minutes.\n 2. Heat oil in a pot and saut\u00c3\u00a9 the sliced onions until golden brown.\n 3. Add ginger garlic paste and cook until fragrant.\n 4. Add chopped tomatoes, cumin seeds, cinnamon stick, cloves, bay leaf, and salt, then cook until the tomatoes soften.\n 5. Add the chicken or mutton and cook until the meat is browned and tender.\n 6. Pour in the required amount of water and bring it to a boil.\n 7. Drain the soaked rice and add it to the pot, stirring gently.\n 8. Cover and cook on low heat until the rice is fully cooked and the water is absorbed.\n 9. Fluff the rice with a fork and garnish with fresh coriander and fried onions before serving.",
+            "image": "recipe_images/pulao.jpeg"
+        },
+        {
+            "title": "Qeema",
+            "cooking_time": "35 minutes",
+            "ingredients": [
+                "500g minced meat (beef or chicken)",
+                "2 onions (chopped)",
+                "2 tomatoes (chopped)",
+                "1 tbsp ginger garlic paste",
+                "1 tsp cumin seeds",
+                "1 tsp red chili powder",
+                "1/2 tsp turmeric",
+                "1 tsp garam masala",
+                "Salt (to taste)",
+                "Fresh coriander (for garnish)"
+            ],
+            "instructions": "1. Heat oil in a pan and saut\u00c3\u00a9 the chopped onions until golden brown.\n 2. Add ginger garlic paste and cumin seeds, then cook until fragrant.\n 3. Add chopped tomatoes, red chili powder, turmeric, and salt, then cook until the tomatoes soften and form a thick masala.\n 4. Add the minced meat and cook on medium heat, stirring occasionally, until it changes color and releases its moisture.\n 5. Cover and cook on low heat until the meat is fully cooked and the oil separates.\n 6. Sprinkle garam masala, mix well, and let it cook for another 2 minutes.\n 7. Garnish with fresh coriander and serve hot with naan or rice.",
+            "image": "recipe_images/beef_qeema.jpeg"
+        },
+        {
+            "title": "Korma",
+            "cooking_time": "50 minutes",
+            "ingredients": [
+                "500g chicken or mutton",
+                "2 onions (fried and blended)",
+                "2 tbsp yogurt",
+                "2 tbsp ginger garlic paste",
+                "1 tsp red chili powder",
+                "1 tsp coriander powder",
+                "1/2 tsp turmeric",
+                "1 tsp garam masala",
+                "Salt (to taste)",
+                "4 tbsp oil or ghee",
+                "Fresh coriander (for garnish)"
+            ],
+            "instructions": "1. Heat oil or ghee in a pan and saut\u00c3\u00a9 ginger garlic paste until fragrant.\n 2. Add chicken or mutton and cook on medium heat until it changes color.\n 3. Add red chili powder, coriander powder, turmeric, and salt, then mix well.\n 4. Stir in blended fried onions and yogurt, then cook until the masala thickens and the oil separates.\n 5. Add a little water, cover, and let it simmer until the meat is tender.\n 6. Sprinkle garam masala and cook for another 2 minutes.\n 7. Garnish with fresh coriander and serve hot with naan or rice.",
+            "image": "recipe_images/mutton_korma.jpeg"
+        },
+        {
+            "title": "Nihari",
+            "cooking_time": "3 hours",
+            "ingredients": [
+                "500g beef",
+                "2 onions (sliced)",
+                "2 tbsp ginger garlic paste",
+                "4 tbsp Nihari masala",
+                "1/2 cup ghee",
+                "4 cups water",
+                "Fresh coriander and ginger (for garnish)"
+            ],
+            "instructions": "1. Heat ghee in a deep pot and saut\u00c3\u00a9 sliced onions until golden brown.\n 2. Add ginger garlic paste and fry until aromatic.\n 3. Add beef and Nihari masala, then cook on medium heat until the meat changes color.\n 4. Pour in 4 cups of water, cover, and let it simmer on low heat for 2.5 to 3 hours until the meat becomes tender.\n 5. Mix a little flour with water to make a slurry and add it to the Nihari to thicken the gravy.\n 6. Simmer for another 10 minutes until the oil separates.\n 7. Garnish with fresh coriander, julienned ginger, and serve hot with naan.",
+            "image": "recipe_images/beef_nihari.jpeg"
+        },
+        {
+            "title": "Fried Fish",
+            "cooking_time": "25 minutes",
+            "ingredients": [
+                "Fish fillets",
+                "Spices",
+                "Oil for frying"
+            ],
+            "instructions": "1. Clean and pat dry the fish fillets.\n 2. In a bowl, mix spices like red chili powder, turmeric, salt, and lemon juice to make a marinade.\n 3. Coat the fish fillets with the marinade and let them rest for 15-20 minutes.\n 4. Heat oil in a frying pan over medium heat.\n 5. Fry the fish fillets on each side for 4-5 minutes until golden brown and crispy.\n 6. Remove from oil and place on a paper towel to absorb excess oil.\n 7. Serve hot with lemon wedges and dipping sauce.",
+            "image": "recipe_images/fried_fish.jpeg"
+        }
+    ],
+    "Dessert": [
+        {
+            "title": "Chocolate Mousse",
+            "cooking_time": "45 minutes",
+            "ingredients": [
+                "200g dark chocolate",
+                "1 cup heavy cream",
+                "2 egg whites",
+                "2 tbsp sugar"
+            ],
+            "instructions": "1. Melt the dark chocolate using a double boiler or microwave, then let it cool slightly.\n 2. In a bowl, whisk the heavy cream until soft peaks form, then set aside.\n 3. In another bowl, beat the egg whites with sugar until stiff peaks form.\n 4. Gently fold the melted chocolate into the whipped cream until well combined.\n 5. Carefully fold in the beaten egg whites to keep the mixture light and airy.\n 6. Pour the mousse into serving glasses and refrigerate for at least 2 hours to set.\n 7. Garnish with chocolate shavings or berries before serving.",
+            "image": "recipe_images/chocolate_mousse.jpeg"
+        },
+        {
+            "title": "Gulab Jamun",
+            "cooking_time": "30 minutes",
+            "ingredients": [
+                "Milk powder",
+                "Flour",
+                "Ghee",
+                "Sugar syrup"
+            ],
+            "instructions": "1. In a bowl, mix milk powder, flour, and a little ghee to form a crumbly texture.\n 2. Gradually add milk and knead into a soft dough, then let it rest for 10 minutes.\n 3. Divide the dough into small balls, ensuring they are smooth without cracks.\n 4. Heat oil or ghee on low-medium heat and fry the balls until golden brown, stirring gently.\n 5. Remove from oil and immediately soak in warm sugar syrup for at least 30 minutes.\n 6. Serve warm or at room temperature, garnished with nuts if desired.",
+            "image": "recipe_images/gulab_jamun.jpeg"
+        },
+        {
+            "title": "Kheer",
+            "cooking_time": "1 hour",
+            "ingredients": [
+                "Rice",
+                "Milk",
+                "Sugar",
+                "Cardamom"
+            ],
+            "instructions": "1. Rinse the rice thoroughly and soak it in water for 30 minutes.\n 2. In a pot, bring milk to a boil, then add the soaked rice and cardamom.\n 3. Cook on low heat, stirring occasionally, until the rice becomes soft and the mixture thickens.\n 4. Add sugar and continue cooking until fully dissolved, adjusting sweetness as needed.\n 5. Once the kheer reaches the desired consistency, remove from heat and let it cool slightly.\n 6. Serve warm or chilled, garnished with nuts or saffron if desired.",
+            "image": "recipe_images/kheer.jpeg"
+        },
+        {
+            "title": "Jalebi",
+            "cooking_time": "45 minutes",
+            "ingredients": [
+                "Flour",
+                "Sugar syrup",
+                "Saffron"
+            ],
+            "instructions": "1. In a bowl, mix flour with water to form a thick, smooth batter and let it rest for fermentation.\n 2. Heat oil in a pan and pour the batter into a piping bag or squeeze bottle.\n 3. Pipe the batter into hot oil in a spiral shape and fry until golden and crispy.\n 4. Remove from oil and immediately soak in warm sugar syrup infused with saffron.\n 5. Let the jalebis absorb the syrup for a few seconds, then serve warm and crispy.",
+            "image": "recipe_images/jalebi.jpeg"
+        },
+        {
+            "title": "Gajar Ka Halva",
+            "cooking_time": "45 minutes",
+            "ingredients": [
+                "Carrots",
+                "Milk",
+                "Sugar",
+                "Ghee"
+            ],
+            "instructions": "1. Grate the carrots and add them to a pan.\n 2. Pour milk over the grated carrots and cook on medium heat until the milk is fully absorbed.\n 3. Add sugar and mix well, stirring continuously.\n 4. Pour ghee into the mixture and cook until the halwa turns glossy and aromatic.\n 5. Garnish with chopped nuts and serve warm.",
+            "image": "recipe_images/gajar_ka_halwa.jpeg"
+        },
+        {
+            "title": "Shahe Tukre",
+            "cooking_time": "30 minutes",
+            "ingredients": [
+                "Bread",
+                "Sugar syrup",
+                "Milk",
+                "Dry fruits"
+            ],
+            "instructions": "1. Cut the bread into small squares or triangles and deep-fry until golden brown.\n 2. Prepare sugar syrup by boiling sugar and water until slightly thickened.\n 3. Soak the fried bread pieces in the sugar syrup for a few minutes.\n 4. In a separate pan, heat milk and reduce it to half while stirring continuously.\n 5. Pour the thickened milk over the soaked bread and let it absorb the flavors.\n 6. Garnish with dry fruits and serve warm.",
+            "image": "recipe_images/shahi_tukre.jpeg"
+        }
+    ],
+    "Drink": [
+        {
+            "title": "Mango Smoothie",
+            "cooking_time": "10 minutes",
+            "ingredients": [
+                "1 ripe mango",
+                "1 cup milk",
+                "1 tbsp honey",
+                "Ice cubes"
+            ],
+            "instructions": "1. Peel and chop the mango into small pieces.\n 2. Add mango pieces, milk, honey, and ice cubes to a blender.\n 3. Blend everything until smooth and creamy.\n 4. Pour into a glass and serve chilled.",
+            "image": "recipe_images/mango_smoothie.jpeg"
+        },
+        {
+            "title": "Chai",
+            "cooking_time": "10 minutes",
+            "ingredients": [
+                "Tea leaves",
+                "Milk",
+                "Sugar",
+                "Water"
+            ],
+            "instructions": "1. Boil water in a pot and add tea leaves.\n 2. Let it simmer for a few minutes to extract the flavor.\n 3. Add milk and sugar, then boil for another 2-3 minutes.\n 4. Strain the tea into cups and serve hot.",
+            "image": "recipe_images/chai.jpeg"
+        },
+        {
+            "title": "Lassi",
+            "cooking_time": "5 minutes",
+            "ingredients": [
+                "Yogurt",
+                "Water",
+                "Sugar",
+                "Ice cubes"
+            ],
+            "instructions": "1. Add yogurt, water, sugar, and ice cubes to a blender.\n 2. Blend everything until smooth and frothy.\n 3. Pour into a glass and serve chilled.",
+            "image": "recipe_images/lassi.jpeg"
+        },
+        {
+            "title": "Falooda",
+            "cooking_time": "15 minutes",
+            "ingredients": [
+                "Vermicelli",
+                "Rose syrup",
+                "Milk",
+                "Ice cream"
+            ],
+            "instructions": "1. Cook vermicelli in boiling water and drain.\n 2. In a glass, add rose syrup, cooked vermicelli, and cold milk.\n 3. Top with a scoop of ice cream and mix lightly.\n 4. Garnish with chopped nuts or basil seeds if desired and serve chilled.",
+            "image": "recipe_images/falooda.jpeg"
+        },
+        {
+            "title": "Limbu Pani",
+            "cooking_time": "5 minutes",
+            "ingredients": [
+                "Lemon",
+                "Water",
+                "Sugar",
+                "Salt"
+            ],
+            "instructions": "1. Squeeze fresh lemon juice into a glass.\n 2. Add water, sugar, and salt, then stir well until dissolved.\n 3. Add ice cubes and serve chilled.",
+            "image": "recipe_images/limbu_pani.jpeg"
+        }
+    ]
+}
