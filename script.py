@@ -177,8 +177,8 @@ load_dotenv()
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 # Ensure that the ADMIN_PASSWORD is set
-if not ADMIN_PASSWORD:
-    st.error("Admin password is not set in the environment variables. Please check your .env file.")
+# if not ADMIN_PASSWORD:
+#     st.error("Admin password is not set in the environment variables. Please check your .env file.")
 
 # Define paths
 RECIPE_FILE = "recipes.json"
