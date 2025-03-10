@@ -1,15 +1,11 @@
-# Ignore .env file containing sensitive data
+# Ignore virtual environment folder
+venv/
+
+# Ignore .env file (for sensitive data like passwords)
 .env
 
 # Ignore Python cache files
 __pycache__/
-*.pyc
 
-# Ignore virtual environment directory
-venv/
-
-# Ignore IDE-specific files (if you're using VSCode)
-.vscode/
-
-# Ignore log files
-*.log
+# Ignore Streamlit config folder
+.streamlit/
