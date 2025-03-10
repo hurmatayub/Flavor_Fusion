@@ -342,10 +342,7 @@ load_dotenv()
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 # Debugging: Check if the password is loaded correctly
-if ADMIN_PASSWORD:
-    print(f"Admin Password from .env: {ADMIN_PASSWORD}")
-else:
-    print("Admin Password not loaded. Check .env file.")
+print(f"Loaded password: {ADMIN_PASSWORD}")
 
 # Define paths
 RECIPE_FILE = "recipes.json"
@@ -375,8 +372,8 @@ load_recipes()
 # Admin password input and validation
 admin_password = st.text_input("Admin Password", type="password")
 
-# Check if entered password matches the ADMIN_PASSWORD
-if admin_password == ADMIN_PASSWORD:
+# Strip spaces and compare the password
+if admin_password.strip() == ADMIN_PASSWORD.strip():
     st.session_state.is_admin = True
     st.success("Logged in as Admin!")
 else:
