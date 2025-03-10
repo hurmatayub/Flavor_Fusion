@@ -102,11 +102,7 @@
                 "2 cups rice (soaked for 30 minutes)"
             ],
             "instructions": "1. **Cook the Daal:** Wash the lentils thoroughly. In a pot, add lentils, water, turmeric, red chili powder, and salt. Boil until the lentils are soft and the mixture is slightly thickened.\n2. **Prepare the Tarka:** Heat oil or ghee in a pan. Add sliced onions and fry until golden brown. Pour the tarka over the cooked daal and stir. Garnish with fresh coriander.\n3. **Cook the Rice:** In a separate pot, boil water and add soaked rice. Cook until the rice is tender. Drain any excess water.\n4. **Serve Hot:** Plate the rice with a generous serving of daal on top. Serve with pickles, papad, or raita.",
-            "image": "recipe_images/daal_chawal.jpeg",
-            "reviews": [
-                2,
-                2
-            ]
+            "image": "recipe_images/daal_chawal.jpeg"
         },
         {
             "title": "Biryani",
@@ -184,15 +180,7 @@
                 "Butter"
             ],
             "instructions": "1. Spread butter on one side of each bread slice.\n 2. Place a slice of cheese between the unbuttered sides of the bread.\n 3. Heat a pan on medium heat and place the sandwich buttered side down.\n 4. Cook for 2-3 minutes until golden brown, then flip and cook the other side.\n 5. Remove from heat once both sides are crispy and the cheese is melted.\n 6. Serve hot and enjoy.",
-            "image": "recipe_images/cheese_sandwich.jpeg",
-            "reviews": {
-                "hurmat": [
-                    3
-                ],
-                "Ali": [
-                    4
-                ]
-            }
+            "image": "recipe_images/cheese_sandwich.jpeg"
         },
         {
             "title": "Samosa",

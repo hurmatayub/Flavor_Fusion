@@ -3,6 +3,17 @@ import json
 import os
 from PIL import Image
 from pathlib import Path
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
+
+
+if not ADMIN_PASSWORD:
+    st.error("Admin password is not set in the environment variables.")
 
 RECIPE_FILE = "recipes.json"
 IMAGE_DIR = "recipe_images"
@@ -20,14 +31,27 @@ def load_recipes():
         else:
             st.session_state.recipes = {}
 
-load_recipes()
-
 def save_recipes():
     with open(RECIPE_FILE, "w") as f:
         json.dump(st.session_state.recipes, f, indent=4)
 
+load_recipes()
+
+
+admin_password = st.text_input("Admin Password", type="password")
+
+if admin_password == ADMIN_PASSWORD:
+    st.session_state.is_admin = True
+    st.success("Logged in as Admin!")
+else:
+    st.session_state.is_admin = False
+    if admin_password:
+        st.error("Incorrect password! Please try again.")
+
+
 st.sidebar.header("Recipe Categories")
 selected_category = st.sidebar.selectbox("Choose a category", ["Select a category"] + list(st.session_state.recipes.keys()))
+
 
 if st.sidebar.button("Add New Recipe"):
     st.session_state.show_add_recipe = True
@@ -59,6 +83,13 @@ if search_query and search_results:
                     st.write("\n".join([f"- {ing}" for ing in recipe["ingredients"]]))
                 with st.expander("Instructions"):
                     st.write(recipe["instructions"])
+            if st.session_state.is_admin:
+                if st.button(f"Delete {recipe['title']}", key=f"delete_{recipe['title']}"):
+                    
+                    st.session_state.recipes[category].remove(recipe)
+                    save_recipes()
+                    st.success(f"Recipe '{recipe['title']}' deleted successfully!")
+                    st.experimental_rerun()
             st.markdown("---")
 
 elif search_query:
@@ -80,6 +111,13 @@ if selected_category != "Select a category" and not search_query:
                     st.write("\n".join([f"- {ing}" for ing in recipe["ingredients"]]))
                 with st.expander("Instructions"):
                     st.write(recipe["instructions"])
+            if st.session_state.is_admin:
+                if st.button(f"Delete {recipe['title']}", key=f"delete_{recipe['title']}"):
+                    # Delete recipe
+                    st.session_state.recipes[selected_category].remove(recipe)
+                    save_recipes()
+                    st.success(f"Recipe '{recipe['title']}' deleted successfully!")
+                    st.experimental_rerun()
         st.markdown("---")
 
 if st.session_state.get("show_add_recipe", False):
@@ -91,7 +129,7 @@ if st.session_state.get("show_add_recipe", False):
     ingredients = st.text_area("Ingredients (comma separated)")
     instructions = st.text_area("Instructions")
     image = st.file_uploader("Upload an Image", type=["jpg", "png", "jpeg"])
-    
+
     if st.button("Add Recipe"):
         if not title or not cooking_time or not ingredients or not instructions or not user:
             st.warning("Please fill in all fields before adding the recipe.")
