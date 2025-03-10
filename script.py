@@ -163,8 +163,6 @@
 #             st.rerun()
 
 
-
-
 import streamlit as st
 import json
 import os
@@ -178,6 +176,7 @@ load_dotenv()
 # Get the ADMIN_PASSWORD from environment variables
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
+# Ensure that the ADMIN_PASSWORD is set
 if not ADMIN_PASSWORD:
     st.error("Admin password is not set in the environment variables. Please check your .env file.")
 
@@ -329,4 +328,4 @@ if st.session_state.get("show_add_recipe", False):
             save_recipes()
             st.success("Recipe added successfully!")
             st.session_state.show_add_recipe = False
-            st.rerun()
+            st.experimental_rerun()
